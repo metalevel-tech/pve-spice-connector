@@ -54,3 +54,4 @@ Use the [example-launcher.desktop](./assets/pve-spice-connector.example-launcher
   * JamesCoyle.net Limited: [Getting Started With Proxmox HTTP API Commands](https://www.jamescoyle.net/how-to/2666-getting-started-with-proxmox-http-api-commands)
 
 * Proxmox Forum: [Change Spice Proxy port](https://forum.proxmox.com/threads/change-spice-proxy-port.29950/) (not related to the current topic, but I want to keep it as a note for myself)
+* Metalevel.tech Wiki: [The Proxmox Category in my wiki](https://wiki.metalevel.tech/wiki/Category:Proxmox)
