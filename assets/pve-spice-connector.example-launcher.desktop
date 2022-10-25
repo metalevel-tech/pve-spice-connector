@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=MacOS 13 PVE
+Exec=bash -c 'VMID=207 $HOME/bin/pve-spice-connector.sh'
+StartupNotify=false
+Terminal=false
+Icon=MacOS
