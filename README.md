@@ -17,7 +17,7 @@ ln -s /home/${USER}/Git/pve-spice-connector/pve-spice-connector.env /home/${USER
 
 ## Setup
 
-Generate [API token](https://pve.proxmox.com/pve-docs/chapter-pveum.html#pveum_tokens) on the ProxmoxVE server. Uncheck the _Privilege separation_ option if you don't want to make additional setup for them. Copy the generated authentication data, then edit the environment file and set the default values of the variables:
+Generate [API token](https://pve.proxmox.com/pve-docs/chapter-pveum.html#pveum_tokens) on the ProxmoxVE server. Uncheck the _Privilege separation_ option if you don't want to make additional setup for the privileges. Copy the generated authentication data, then edit the environment file and set the default values of the configuration variables:
 
 - `$TOKEN` _name_ and `$UUID` of the token;
 - `$PROTO` you can remove this variable if you use `https`;
@@ -30,9 +30,9 @@ Generate [API token](https://pve.proxmox.com/pve-docs/chapter-pveum.html#pveum_t
 While the scrip is in your `$PATH` you can use it as a shell command in the following way:
 
 ```bash
-pve-spice-connector.sh          # Connect to the VM with the default VMID
-VMID=155 pve-spice-connector.sh # Connect to the VM with VMID 155
-VMID=200 pve-spice-connector.sh # Connect to the VM with VMID 200
+pve-spice-connector.sh            # Connect to the VM with the default VMID
+VMID=155 pve-spice-connector.sh   # Connect to the VM with VMID 155
+VMID=200 pve-spice-connector.sh   # Connect to the VM with VMID 200
 ```
 
 The script will check whether the VM is running and if it is, it will immediately connect to it via SPICE session. If the VM is not running, the script will start it and few seconds later will connect to it.
