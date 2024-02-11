@@ -1,6 +1,10 @@
 # Proxmox VE SPICE Connector
 
-Bash script that runs Virt-viewer's SPICE session via API call to a remove ProxmoxVE.
+Bash script that runs Virt-viewer's SPICE session via API call to a remote ProxmoxVE.
+
+[run-vm-via-desktop-shortcut-generated-by-pve-spice-connector.webm](https://github.com/metalevel-tech/pve-spice-connector/assets/24458278/da77afae-f92b-4246-a0c5-510e55d1c6d6)
+
+
 
 ## Deploy
 
